@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.petstore.PetTests.petStoreTest">
+      <class name="com.petstore.PetTests.UserOperations">
         <methods>
-          <include name="beforeTest"/>
-          <include name="verifyNewPet"/>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+          <include name="clickExpand"/>
         </methods>
-      </class> <!-- com.petstore.PetTests.petStoreTest -->
+      </class> <!-- com.petstore.PetTests.UserOperations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
