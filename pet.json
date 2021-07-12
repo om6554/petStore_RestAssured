@@ -1,0 +1,18 @@
+{
+  "id": 134568912,
+  "category": {
+    "id": 33115,
+    "name": "BullDog"
+  },
+  "name": "doggies",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 220000,
+      "name": "Dogs"
+    }
+  ],
+  "status": "available"
+}
